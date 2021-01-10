@@ -24,5 +24,5 @@ server
 .get('/give-classes', pageGiveClasses)
 .post("/save-classes", saveClasses)
 
-    
-.listen(5000)
+// para acessar digite "localhost:5000" no navegador
+.listen(5000) // abre na porta 5000
